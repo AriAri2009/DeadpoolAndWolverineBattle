@@ -98,7 +98,7 @@ namespace DeadpoolAndWolverineBattle
             // REGLA: Evasión de Wolverine (20% de probabilidades de esquivar)
             if (random.Next(1, 101) <= 20)
             {
-                txt_Desarrollo.AppendText("¡Wolverine esquivó el golpe con sus reflejos!\r\n");
+                txt_Desarrollo.AppendText("¡Wolverine esquivó la galleta de Deadpool con sus reflejos!\r\n");
                 return;
             }
 

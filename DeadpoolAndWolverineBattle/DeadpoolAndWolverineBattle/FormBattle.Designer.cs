@@ -43,10 +43,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Muthiara -Demo Version-", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(414, 41);
+            label1.Font = new Font("Muthiara -Demo Version-", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Location = new Point(349, 25);
             label1.Name = "label1";
-            label1.Size = new Size(345, 47);
+            label1.Size = new Size(464, 64);
             label1.TabIndex = 0;
             label1.Text = "Deadpool VS Wolverine";
             // 
@@ -113,6 +113,7 @@
             // 
             // txt_Desarrollo
             // 
+            txt_Desarrollo.Font = new Font("Modern No. 20", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txt_Desarrollo.Location = new Point(975, 144);
             txt_Desarrollo.Multiline = true;
             txt_Desarrollo.Name = "txt_Desarrollo";
